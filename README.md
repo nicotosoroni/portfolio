@@ -1,6 +1,6 @@
 # Nicolas Tosoroni - Dev Portfolio
 
-![Portfolio Screenshot](src\assets\soon.png)
+![Portfolio Screenshot](https://github.com/nicotosoroni/portfolio/blob/master/src/assets/soon.png)
 
 This portfolio is a dynamic and interactive showcase of my skills, projects, and experience as a React front-end developer. It highlights my expertise in building responsive, user-friendly web applications and includes detailed case studies of my work.
 
@@ -67,12 +67,12 @@ If you'd like to run this portfolio locally, follow these steps:
 
 ## Live Demo
 
-Check out the live version of the portfolio: [React Dev Portfolio](https://react-dev-portfolio.netlify.app)
+Check out the live version of the portfolio: Soon
 
 **Screenshots**
 
-![Home Page](src\assets\soon.png)
-![Projects Page](src\assets\soon.png)
+![Home Page](https://github.com/nicotosoroni/portfolio/blob/master/src/assets/soon.png)
+![Projects Page](./src/assets/soon.png)
 
 ---
 
