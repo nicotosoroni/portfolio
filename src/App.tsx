@@ -1,9 +1,13 @@
 import './App.css';
 import Badge from './components/Badge';
+import Experience from './components/Experience';
 import Header from './components/Header';
+import SectionContainer from './components/SectionContainer';
 import SocialPill from './components/SocialPill';
 import GitHubIcon from './icons/GitHub';
 import LinkedInIcon from './icons/LinkedIn';
+import MailIcon from './icons/Mail';
+import SuitcaseIcon from './icons/Suitcase';
 
 function App() {
   return (
@@ -14,10 +18,9 @@ function App() {
         </div>
         <Header />
         <main>
-          <section className="w-full lg:w-[740px] mx-auto py-44">
+          <SectionContainer styles="py-44 pb-22">
             <img
-              className="rounded-full w-12 h-12 mb-4"
-              // src="https://i.ibb.co/k6z2SSRp/profile-Photo.jpg"
+              className="rounded-full size-12 mb-4"
               src="https://media.licdn.com/dms/image/v2/C4D03AQHZTm6h_Ygohg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1650637233618?e=1749081600&v=beta&t=hpyhEFWsW_3-LFjWG0nH5m5hXflhr-UAL4iY9Xp3wQg"
               alt="nico tosoroni photo"
             />
@@ -44,15 +47,25 @@ function App() {
                 interfaces.
               </span>
             </h2>
-            <nav className="flex gap-x-2 mt-8">
+            <nav className="flex gap-x-4 mt-8">
               <SocialPill href="https://www.linkedin.com/in/nicolas-tosoroni/">
-                <LinkedInIcon styles="w-6 h-6" /> LinkedIn
+                <LinkedInIcon styles="size-6" /> LinkedIn
               </SocialPill>
               <SocialPill href="https://github.com/nicotosoroni/">
-                <GitHubIcon styles="w-6 h-6" /> GitHub
+                <GitHubIcon styles="size-6" /> GitHub
+              </SocialPill>
+              <SocialPill href="https://github.com/nicotosoroni/">
+                <MailIcon styles="size-6" /> nicolastosoroni@outlook.com
               </SocialPill>
             </nav>
-          </section>
+          </SectionContainer>
+          <SectionContainer>
+            <h2 className="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+              <SuitcaseIcon styles="size-7" />
+              Experience
+            </h2>
+            <Experience />
+          </SectionContainer>
         </main>
       </body>
     </>
