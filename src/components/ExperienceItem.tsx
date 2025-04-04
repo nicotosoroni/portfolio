@@ -14,13 +14,11 @@ const ExperienceItem = ({
   return (
     <>
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+      <time className="mb-1 text-sm font-normal leading-none text-sky-200/70">
         {time}
       </time>
-      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-        {title}
-      </h3>
-      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+      <h3 className="text-lg font-semibold text-orange-200/90 mt-2">{title}</h3>
+      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-pretty">
         {description}
       </p>
       {link && (

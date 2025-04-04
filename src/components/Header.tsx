@@ -1,15 +1,15 @@
 const Header = () => {
   return (
-    <header className="flex justify-center items-center py-3 w-[1120px]">
-      <nav className="flex flex-rox gap-x-10 opacity-80">
-        <a href="#home" className="hover:text-gray-400">
+    <header className="flex justify-center items-center py-5 w-full xl:w-[1120px] mx-auto">
+      <nav className="flex flex-row gap-x-10 opacity-80">
+        <a href="#top" className="hover:text-gray-400">
           Home
         </a>
-        <a href="#about" className="hover:text-gray-400">
-          About
+        <a href="#experience" className="hover:text-gray-400">
+          Experience
         </a>
-        <a href="#projects" className="hover:text-gray-400">
-          Projects
+        <a href="#about-me" className="hover:text-gray-400">
+          About
         </a>
         <a href="#contact" className="hover:text-gray-400">
           Contact

@@ -3,11 +3,12 @@ import { ReactNode } from 'react';
 interface SocialPillProps {
   styles?: string;
   children?: ReactNode;
+  id?: string;
 }
 
-const SectionContainer = ({ children, styles }: SocialPillProps) => {
+const SectionContainer = ({ children, styles, id }: SocialPillProps) => {
   return (
-    <section className={`w-full lg:w-[740px] mx-auto ${styles}`}>
+    <section id={id} className={`w-full lg:w-[740px] mx-auto ${styles}`}>
       {children}
     </section>
   );
