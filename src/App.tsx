@@ -8,6 +8,7 @@ import SocialPill from './components/SocialPill';
 import GitHubIcon from './icons/GitHub';
 import LinkedInIcon from './icons/LinkedIn';
 import MailIcon from './icons/Mail';
+import PersonIcon from './icons/Person';
 import SuitcaseIcon from './icons/Suitcase';
 
 function App() {
@@ -55,7 +56,7 @@ function App() {
               <SocialPill href="https://github.com/nicotosoroni/">
                 <GitHubIcon styles="size-4 md:size-6" /> GitHub
               </SocialPill>
-              <SocialPill href="https://github.com/nicotosoroni/">
+              <SocialPill href="mailto:nicolastosoroni@outlook.com?subject=Inquiry">
                 <MailIcon styles="size-4 md:size-6" />{' '}
                 nicolastosoroni@outlook.com
               </SocialPill>
@@ -67,6 +68,32 @@ function App() {
               Experience
             </h2>
             <Experience />
+          </SectionContainer>
+          <SectionContainer id="about-me" styles="pt-22 pb-22">
+            <h2 className="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+              <PersonIcon styles="size-7" />
+              About me
+            </h2>
+
+            <span className="text-orange-200/90">
+              With almost 4 years of experience working as front-end developer,
+              I am at the point in my career where I am looking to improve
+              professionally.
+              <br />
+              <br /> I like to generate pleasant working environments. I am
+              looking for a new challenge to take a step forward in my career as
+              a software developer.
+            </span>
+          </SectionContainer>
+          <SectionContainer id="contact" styles="pt-12 pb-22">
+            <h2 className="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+              <MailIcon styles="size-7" />
+              Contact me
+            </h2>
+
+            <span className="text-orange-200/90">
+              nicolastosoroni@outlook.com
+            </span>
           </SectionContainer>
         </main>
         <Footer />
