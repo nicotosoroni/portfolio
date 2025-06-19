@@ -26,8 +26,8 @@ function App() {
       <main className="px-4">
         <SectionContainer styles="py-44 pb-22">
           <img
-            className="rounded-full size-12 mb-4"
-            src="https://media.licdn.com/dms/image/v2/C4D03AQHZTm6h_Ygohg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1650637233618?e=1749081600&v=beta&t=hpyhEFWsW_3-LFjWG0nH5m5hXflhr-UAL4iY9Xp3wQg"
+            className="rounded-full size-20 mb-4"
+            src="https://media.licdn.com/dms/image/v2/C4D03AQHZTm6h_Ygohg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1650637233618?e=1755734400&v=beta&t=mCZuf7ajE9rNHxltznLRTG7viTtaIHJKc5iYYeMIl-0"
             alt="nico tosoroni photo"
           />
           <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
